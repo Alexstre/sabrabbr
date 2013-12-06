@@ -22,4 +22,5 @@ I also uploaded the file on my personal server so people having issues downloadi
 Usage
 -------
 Once installed, the extension will automatically append `<abbr>` tags to commonly used acronyms. Simply mouseovering will
-show a more complete definition. All definitions were taken from [this Wikipedia page](https://en.wikipedia.org/wiki/Baseball_statistics "Baseball Statistics at Wikipedia"). Ironically the extension does not work on Wikipedia.
+show a more complete definition. All definitions were taken from [this Wikipedia page](https://en.wikipedia.org/wiki/Baseball_statistics "Baseball Statistics at Wikipedia"). Ironically the extension does not work on Wikipedia. Please note that the extension does not force a CSS change for the `abbr` tag so unless the site you're visiting has that tag styled there's no visual clue that you can mouseover an accronym.
+I might add it at a later time but for now I want to look at popular websites and see if they have `abbr` tags styled already (r/baseball does now, thanks for u/Fustrate!)
