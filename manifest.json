@@ -22,10 +22,10 @@
   "content_scripts": [
   {
     "matches": ["http://*/*"],
-    "js": ["content.js"],
+    "js": ["content.js","jquery.min.js"],
     "css": ["sabr.css"]
   }
   ],
   
-  "web_accessible_resources": ["content.js", "sabr.js", "sabr.css"]
+  "web_accessible_resources": ["content.js", "sabr.js", "sabr.css","jquery.min.js"]
 }

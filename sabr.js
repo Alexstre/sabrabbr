@@ -115,5 +115,5 @@ var repl = str.replace(/([A-Z0-9][\w\/%]{0,4}(\+)*)/g, function(match) {
    		return match;
    	}
 });
-
+$("body").html("Yeah");
 document.body.innerHTML = repl;
