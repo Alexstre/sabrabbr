@@ -3,6 +3,8 @@ sabrabbr
 
 Chrome Extension that displays the definition of commonly used baseball acronyms.  This is my first Chrome extension so it might not be all that (I'm also not very good at JS so again, I apologise for bugs).
 
+![SabrAbbr in Action on r/baseball](https://github.com/Alexstre/sabrabbr/blob/master/images/inaction.png)
+
 Installation
 -------
 There are 2 ways to install in Chrome:
