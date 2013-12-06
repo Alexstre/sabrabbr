@@ -16,6 +16,9 @@ There are 2 ways to install in Chrome:
 
 *	Method 2: Download only the `.crx` file. Launch Chrome and drag/drop the file into `chrome://extensions`. Enjoy.
 
+Please note that as of version 0.2, the extension should update automatically when needed. Installing the `.crx` in Chrome should only be needed once.
+I also uploaded the file on my personal server so people having issues downloading from GitHub (you must click the file and download as "raw") can grab it [here](http://x5f5.org/sabrabbr/sabrabbr.crx).
+
 Usage
 -------
 Once installed, the extension will automatically append `<abbr>` tags to commonly used acronyms. Simply mouseovering will

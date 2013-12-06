@@ -1,6 +1,6 @@
 {
   "name": "SABR Acronyms",
-  "version": "0.2",
+  "version": "0.21",
   "manifest_version": 2,
   "description": "Adds tooltips with a definition to commonly used acronyms in baseball.",
   "update_url": "https://github.com/Alexstre/sabrabbr/raw/master/update.xml",
@@ -23,10 +23,9 @@
   "content_scripts": [
   {
     "matches": ["http://*/*"],
-    "js": ["content.js","jquery.min.js"],
-    "css": ["sabr.css"]
+    "js": ["content.js"]
   }
   ],
   
-  "web_accessible_resources": ["content.js", "sabr.js", "sabr.css","jquery.min.js","jquery-2.0.3.min.map"]
+  "web_accessible_resources": ["content.js", "sabr.js"]
 }

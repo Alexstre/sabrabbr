@@ -23,8 +23,7 @@ do {
                 for (var i = 0; i < abbrList.length; i++) {
                     var abbrev = abbrList[i];
                     abbrevSearch = abbrev.replace('%', '\\%').replace('+', '\\+').replace('/', '\\/');
-                    console.log("Searching for " + abbrev);
-                    toSearch = new RegExp('\\b' + abbrev + '\\b', "g");
+                    toSearch = new RegExp('\\b' + abbrevSearch + '\\b', "g");
                     findAndReplaceDOMText(child, {
                         find: toSearch,
                         replace: function(portion, match) {
