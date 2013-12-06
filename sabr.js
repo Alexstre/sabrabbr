@@ -107,9 +107,9 @@ var acronyms = {
 };
 
 var str = document.body.innerHTML;
-var repl = str.replace(/([A-Z0-9][\w\/%]{0,4}(\+)*)/g, function(match) {
+var repl = str.replace(/\s([A-Z0-9][A-Z\/%]{0,4}(\+)*)\s/g, function(match) {
    	if (match in acronyms) {
-   		return "<abbr title='" + acronyms[match] + "''>" + match + "</abbr>";
+   		return " <abbr title='" + acronyms[match] + "''>" + match + "</abbr> ";
    	}
    	else {
    		return match;
