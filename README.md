@@ -1,7 +1,8 @@
 sabrabbr
 ========
 
-Chrome Extension that displays the definition of commonly used baseball acronyms.  This is my first Chrome extension so it might not be all that (I'm also not very good at JS so again, I apologise for bugs).
+Chrome Extension that displays the definition of commonly used baseball acronyms. I have absolutely no idea
+how optimal this is. Please let me know if you find a better way of doing this. Thanks!
 
 ![SabrAbbr in Action on r/baseball](https://raw.github.com/Alexstre/sabrabbr/master/images/inaction.png)
 
@@ -14,3 +15,8 @@ There are 2 ways to install in Chrome:
 	`Pack extension...` to create your own `.crx` file. 
 
 *	Method 2: Download only the `.crx` file. Launch Chrome and drag/drop the file into `chrome://extensions`. Enjoy.
+
+Usage
+-------
+Once installed, the extension will automatically append `<abbr>` tags to commonly used acronyms. Simply mouseovering will
+show a more complete definition. All definitions were taken from [this Wikipedia page](https://en.wikipedia.org/wiki/Baseball_statistics "Baseball Statistics at Wikipedia"). Ironically the extension does not work on Wikipedia.
