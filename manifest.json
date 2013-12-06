@@ -1,0 +1,31 @@
+{
+  "name": "SABR Acronyms",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Adds tooltips with a definition to commonly used acronyms in baseball.",
+
+  "icons": {
+    "16" : "images/16.png",
+    "48" : "images/48.png",
+    "128" : "images/128.png"
+  },
+    
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "images/16.png",
+    "default_title": "SABR Acronyms"
+  },
+
+  "content_scripts": [
+  {
+    "matches": ["http://*/*"],
+    "js": ["content.js"],
+    "css": ["sabr.css"]
+  }
+  ],
+  
+  "web_accessible_resources": ["content.js", "sabr.js", "sabr.css"]
+}
